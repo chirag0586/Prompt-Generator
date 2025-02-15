@@ -9,7 +9,7 @@ def setup_openai(api_key: str) -> None:
 def generate_enhanced_prompt(role: str, context: str, task: str) -> str:
     """Use GPT to generate an enhanced prompt."""
     try:
-        system_message = """You are a prompt engineering expert. Your task is to take the provided role, context, and task, 
+        system_message = """You are a prompt expert. Your task is to take the provided role, context, and task, 
         and generate an enhanced prompt that:
         1. Includes clear formatting instructions
         2. Explicitly asks for clarifying questions before proceeding
